@@ -31,6 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.0.28"],\
           ["@types/react-dom", "npm:18.0.11"],\
           ["@types/sharp", "npm:0.31.1"],\
+          ["@vercel/og", "npm:0.1.0"],\
           ["eslint", "npm:8.34.0"],\
           ["eslint-config-next", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:13.1.6"],\
           ["newt-client-js", "npm:3.2.4"],\
@@ -324,6 +325,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@resvg/resvg-wasm", [\
+      ["npm:2.0.0-alpha.4", {\
+        "packageLocation": "../../.yarn/berry/cache/@resvg-resvg-wasm-npm-2.0.0-alpha.4-e8c7fbf697-9.zip/node_modules/@resvg/resvg-wasm/",\
+        "packageDependencies": [\
+          ["@resvg/resvg-wasm", "npm:2.0.0-alpha.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@rushstack/eslint-patch", [\
       ["npm:1.2.0", {\
         "packageLocation": "../../.yarn/berry/cache/@rushstack-eslint-patch-npm-1.2.0-917f402e4e-9.zip/node_modules/@rushstack/eslint-patch/",\
@@ -517,6 +527,18 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/visitor-keys", "npm:5.52.0"],\
           ["@typescript-eslint/types", "npm:5.52.0"],\
           ["eslint-visitor-keys", "npm:3.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@vercel/og", [\
+      ["npm:0.1.0", {\
+        "packageLocation": "../../.yarn/berry/cache/@vercel-og-npm-0.1.0-df2243f2dc-9.zip/node_modules/@vercel/og/",\
+        "packageDependencies": [\
+          ["@vercel/og", "npm:0.1.0"],\
+          ["@resvg/resvg-wasm", "npm:2.0.0-alpha.4"],\
+          ["satori", "npm:0.2.2"],\
+          ["yoga-wasm-web", "npm:0.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -833,6 +855,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.0.28"],\
           ["@types/react-dom", "npm:18.0.11"],\
           ["@types/sharp", "npm:0.31.1"],\
+          ["@vercel/og", "npm:0.1.0"],\
           ["eslint", "npm:8.34.0"],\
           ["eslint-config-next", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:13.1.6"],\
           ["newt-client-js", "npm:3.2.4"],\
@@ -3940,6 +3963,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["satori", [\
+      ["npm:0.2.2", {\
+        "packageLocation": "../../.yarn/berry/cache/satori-npm-0.2.2-d66af0517c-9.zip/node_modules/satori/",\
+        "packageDependencies": [\
+          ["satori", "npm:0.2.2"],\
+          ["@shuding/opentype.js", "npm:1.4.0-beta.0"],\
+          ["css-background-parser", "npm:0.1.0"],\
+          ["css-box-shadow", "npm:1.0.0-3"],\
+          ["css-to-react-native", "npm:3.2.0"],\
+          ["emoji-regex", "npm:10.2.1"],\
+          ["postcss-value-parser", "npm:4.2.0"],\
+          ["yoga-wasm-web", "npm:0.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:0.3.1", {\
         "packageLocation": "../../.yarn/berry/cache/satori-npm-0.3.1-988a06912f-9.zip/node_modules/satori/",\
         "packageDependencies": [\
@@ -4680,6 +4717,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["yoga-wasm-web", [\
+      ["npm:0.3.0", {\
+        "packageLocation": "../../.yarn/berry/cache/yoga-wasm-web-npm-0.3.0-cb2d31cdfa-9.zip/node_modules/yoga-wasm-web/",\
+        "packageDependencies": [\
+          ["yoga-wasm-web", "npm:0.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:0.3.1", {\
         "packageLocation": "../../.yarn/berry/cache/yoga-wasm-web-npm-0.3.1-52c2caa5e8-9.zip/node_modules/yoga-wasm-web/",\
         "packageDependencies": [\
