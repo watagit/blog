@@ -1,4 +1,6 @@
 import type { GetStaticPropsContext, InferGetStaticPropsType } from "next";
+import Head from "next/head";
+import { useMemo } from "react";
 
 import { PageWithLayout } from "@/component/layout/PageWithLayout";
 import { ArticleDetail } from "@/component/page/ArticleDetail";
@@ -10,7 +12,18 @@ type ArticleDetailPageProps = InferGetStaticPropsType<typeof getStaticProps>;
 const ArticleDetailPage: NextPageWithLayout<ArticleDetailPageProps> = ({
   article,
 }) => {
-  return <ArticleDetail article={article} />;
+  const ogImagePath = useMemo(() => {
+    return `https://blog-nextjs-six-eta.vercel.app/api/og?title=${article.title}`;
+  }, [article.title]);
+
+  return (
+    <>
+      <Head>
+        <meta property="og:image" content={ogImagePath} />
+      </Head>
+      <ArticleDetail article={article} />
+    </>
+  );
 };
 
 export const getStaticPaths = async () => {
