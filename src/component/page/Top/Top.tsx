@@ -8,5 +8,9 @@ type TopProps = {
 };
 
 export const Top: FC<TopProps> = ({ articles }) => {
-  return <ArticleList articles={articles} />;
+  return (
+    <main>
+      <ArticleList articles={articles} />
+    </main>
+  );
 };
