@@ -1,6 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 
-import { PageWithHeader } from "@/component/layout/PageWithHeader";
+import { PageWithLayout } from "@/component/layout/PageWithLayout";
 import { Top } from "@/component/page/Top";
 import { getArticles } from "@/lib/newt";
 import type { NextPageWithLayout } from "@/type/layout";
@@ -21,6 +21,6 @@ export const getStaticProps = async () => {
   };
 };
 
-TopPage.getLayout = PageWithHeader;
+TopPage.getLayout = PageWithLayout;
 
 export default TopPage;
