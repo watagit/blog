@@ -1,5 +1,6 @@
 import Head from "next/head";
 import "tailwindcss/tailwind.css";
+import "@/style/global.css";
 
 import { AppPropsWithLayout } from "@/type/layout";
 
