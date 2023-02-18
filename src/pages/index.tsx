@@ -1,12 +1,14 @@
-import { InferGetStaticPropsType, NextPage } from "next";
+import { InferGetStaticPropsType } from "next";
 
-import { TopPage as PageContent } from "@/component/page/Top";
+import { PageWithHeader } from "@/component/layout/PageWithHeader";
+import { Top } from "@/component/page/Top";
 import { getArticles } from "@/lib/newt";
+import type { NextPageWithLayout } from "@/type/layout";
 
 type TopPageProps = InferGetStaticPropsType<typeof getStaticProps>;
 
-const TopPage: NextPage<TopPageProps> = ({ articles }) => {
-  return <PageContent articles={articles} />;
+const TopPage: NextPageWithLayout<TopPageProps> = ({ articles }) => {
+  return <Top articles={articles} />;
 };
 
 export const getStaticProps = async () => {
@@ -18,5 +20,7 @@ export const getStaticProps = async () => {
     },
   };
 };
+
+TopPage.getLayout = PageWithHeader;
 
 export default TopPage;
