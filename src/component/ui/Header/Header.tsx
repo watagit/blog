@@ -2,12 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import type { FC } from "react";
 
+import { pagesPath } from "@/lib/$path";
+
 export const Header: FC = () => {
   const avatarImage = "/avatar.png";
 
   return (
     <header className="p-3 sm:mx-auto sm:w-7/12">
-      <Link className="inline-flex items-center gap-3" href="/">
+      <Link className="inline-flex items-center gap-3" href={pagesPath.$url()}>
         <Image
           className="h-16 w-16 rounded-full"
           src={avatarImage}
