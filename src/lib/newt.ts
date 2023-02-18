@@ -9,7 +9,7 @@ export const client = createClient({
   apiType: "cdn",
 });
 
-export const getArticles = async () => {
+export const getArticles = async (): Promise<Array<Article>> => {
   const { items: articles } = await client.getContents<Article>({
     appUid: NEWT_APP_UID,
     modelUid: "article",
