@@ -34,6 +34,7 @@ const RAW_RUNTIME_STATE =
           ["@types/sharp", "npm:0.31.1"],\
           ["@vercel/og", "npm:0.1.0"],\
           ["autoprefixer", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:10.4.13"],\
+          ["dayjs", "npm:1.11.7"],\
           ["eslint", "npm:8.34.0"],\
           ["eslint-config-next", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:13.1.6"],\
           ["eslint-config-prettier", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:8.6.0"],\
@@ -969,6 +970,7 @@ const RAW_RUNTIME_STATE =
           ["@types/sharp", "npm:0.31.1"],\
           ["@vercel/og", "npm:0.1.0"],\
           ["autoprefixer", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:10.4.13"],\
+          ["dayjs", "npm:1.11.7"],\
           ["eslint", "npm:8.34.0"],\
           ["eslint-config-next", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:13.1.6"],\
           ["eslint-config-prettier", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:8.6.0"],\
@@ -1364,6 +1366,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/damerau-levenshtein-npm-1.0.8-bda7311c69-9.zip/node_modules/damerau-levenshtein/",\
         "packageDependencies": [\
           ["damerau-levenshtein", "npm:1.0.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["dayjs", [\
+      ["npm:1.11.7", {\
+        "packageLocation": "../../.yarn/berry/cache/dayjs-npm-1.11.7-d5cd5b2919-9.zip/node_modules/dayjs/",\
+        "packageDependencies": [\
+          ["dayjs", "npm:1.11.7"]\
         ],\
         "linkType": "HARD"\
       }]\

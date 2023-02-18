@@ -761,6 +761,7 @@ __metadata:
     "@types/sharp": "npm:^0"
     "@vercel/og": "npm:^0.1.0"
     autoprefixer: "npm:^10.4.13"
+    dayjs: "npm:^1.11.7"
     eslint: "npm:8.34.0"
     eslint-config-next: "npm:13.1.6"
     eslint-config-prettier: "npm:^8.6.0"
@@ -1122,6 +1123,13 @@ __metadata:
   version: 1.0.8
   resolution: "damerau-levenshtein@npm:1.0.8"
   checksum: a405d7fbbd9316fdaecedd50c42d27ed2d669b687e62813d785316de9f9c171a5797de8efda92292f62364a0966edad2581fc0029a27457ce6ec7f3936ad0437
+  languageName: node
+  linkType: hard
+
+"dayjs@npm:^1.11.7":
+  version: 1.11.7
+  resolution: "dayjs@npm:1.11.7"
+  checksum: e4befd8f695eeb2fbe2f887c0f6e2a8a498dfba89eb4b4d87c036167e4ae36871dda584a24c15db9b68fcf19688199f934c38095c629abcc30f8adb60f0723ce
   languageName: node
   linkType: hard
 
