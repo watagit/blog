@@ -1,12 +1,19 @@
 import type { FC } from "react";
+
 import { Top } from "./Top";
+
+import type { Article } from "@/domain/article";
 import { Header } from "@/component/ui/Header";
 
-export const TopPage: FC = () => {
+type TopPageProps = {
+  articles: Array<Article>;
+};
+
+export const TopPage: FC<TopPageProps> = ({ articles }) => {
   return (
     <>
       <Header />
-      <Top />
+      <Top articles={articles} />
     </>
   );
 };

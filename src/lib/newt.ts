@@ -18,5 +18,5 @@ export const getArticles = async () => {
     },
   });
 
-  return { articles };
+  return articles;
 };
