@@ -20,3 +20,25 @@ export const getArticles = async () => {
 
   return articles;
 };
+
+export const getArticle = async (slug: string): Promise<Article> => {
+  const article = await client.getFirstContent<Article>({
+    appUid: NEWT_APP_UID,
+    modelUid: "article",
+    query: {
+      slug,
+      select: [
+        "_id",
+        "_sys",
+        "title",
+        "icon",
+        "publishedAt",
+        "content",
+        "slug",
+      ],
+    },
+  });
+
+  if (article === null) throw new Error("該当する記事が見つかりませんでした。");
+  return article;
+};
