@@ -1,6 +1,6 @@
 import type { GetStaticPropsContext, InferGetStaticPropsType } from "next";
-import Head from "next/head";
 import { useMemo } from "react";
+import NextHeadSeo from "next-head-seo";
 
 import { PageWithLayout } from "@/component/layout/PageWithLayout";
 import { ArticleDetail } from "@/component/page/ArticleDetail";
@@ -18,9 +18,11 @@ const ArticleDetailPage: NextPageWithLayout<ArticleDetailPageProps> = ({
 
   return (
     <>
-      <Head>
-        <meta property="og:image" content={ogImagePath} />
-      </Head>
+      <NextHeadSeo
+        title={article.title}
+        og={{ title: article.title, image: ogImagePath }}
+        twitter={{ card: "summary_large_image" }}
+      />
       <ArticleDetail article={article} />
     </>
   );
