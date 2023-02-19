@@ -13,7 +13,7 @@ const ArticleDetailPage: NextPageWithLayout<ArticleDetailPageProps> = ({
   article,
 }) => {
   const ogImagePath = useMemo(() => {
-    return `/api/og?title=${article.title}`;
+    return `https://blog.onwtr.dev/api/og?title=${article.title}`;
   }, [article.title]);
 
   return (
