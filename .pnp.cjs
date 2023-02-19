@@ -40,6 +40,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-prettier", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:8.6.0"],\
           ["newt-client-js", "npm:3.2.4"],\
           ["next", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:13.1.6"],\
+          ["next-head-seo", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:0.1.3"],\
           ["npm-run-all", "npm:4.1.5"],\
           ["pathpida", "npm:0.20.1"],\
           ["postcss", "npm:8.4.21"],\
@@ -976,6 +977,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-prettier", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:8.6.0"],\
           ["newt-client-js", "npm:3.2.4"],\
           ["next", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:13.1.6"],\
+          ["next-head-seo", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:0.1.3"],\
           ["npm-run-all", "npm:4.1.5"],\
           ["pathpida", "npm:0.20.1"],\
           ["postcss", "npm:8.4.21"],\
@@ -3728,6 +3730,36 @@ const RAW_RUNTIME_STATE =
           "react-dom",\
           "react",\
           "sass"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["next-head-seo", [\
+      ["npm:0.1.3", {\
+        "packageLocation": "../../.yarn/berry/cache/next-head-seo-npm-0.1.3-fa9224a779-9.zip/node_modules/next-head-seo/",\
+        "packageDependencies": [\
+          ["next-head-seo", "npm:0.1.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:0.1.3", {\
+        "packageLocation": "./.yarn/__virtual__/next-head-seo-virtual-4c3f1b19ee/3/.yarn/berry/cache/next-head-seo-npm-0.1.3-fa9224a779-9.zip/node_modules/next-head-seo/",\
+        "packageDependencies": [\
+          ["next-head-seo", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:0.1.3"],\
+          ["@types/next", null],\
+          ["@types/react", "npm:18.0.28"],\
+          ["@types/react-dom", "npm:18.0.11"],\
+          ["next", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:13.1.6"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:5fa1af1e0bda6c599baeea926c28b1a97d13b6575b0c381aab20feea35d06b18c2a9addb50f657fe6d02818abef229dab47f74a0f27ce63d19ff723f28a2cc0f#npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/next",\
+          "@types/react-dom",\
+          "@types/react",\
+          "next",\
+          "react-dom",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\

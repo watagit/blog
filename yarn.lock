@@ -767,6 +767,7 @@ __metadata:
     eslint-config-prettier: "npm:^8.6.0"
     newt-client-js: "npm:^3.2.4"
     next: "npm:13.1.6"
+    next-head-seo: "npm:^0.1.3"
     npm-run-all: "npm:^4.1.5"
     pathpida: "npm:^0.20.1"
     postcss: "npm:^8.4.21"
@@ -3041,6 +3042,17 @@ __metadata:
     axios-retry: "npm:^3.2.4"
     qs: "npm:^6.10.1"
   checksum: 40bb00be191695d32c33980b090af4040a8387c3441e29b20b2becdeae2149ae163f2e987468b1877f1f9a99c57ea9ef6283a7f32880ab6b0a751c35ef7ca60f
+  languageName: node
+  linkType: hard
+
+"next-head-seo@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "next-head-seo@npm:0.1.3"
+  peerDependencies:
+    next: "*"
+    react: "*"
+    react-dom: "*"
+  checksum: f0d2ae5a5da6024ffe804ea1595e0bca5646972c0272b129be1137c2b50f6ce5fade863a86615fec2ea215652c8e0196f419473f1f3bf7ae003f1249e3b8120c
   languageName: node
   linkType: hard
 
