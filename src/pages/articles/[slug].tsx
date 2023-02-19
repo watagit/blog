@@ -21,7 +21,7 @@ const ArticleDetailPage: NextPageWithLayout<ArticleDetailPageProps> = ({
       <NextHeadSeo
         title={article.title}
         og={{ title: article.title, image: ogImagePath }}
-        twitter={{ card: "summary_large_image" }}
+        twitter={{ card: "summary_large_image", site: "@what_a_pon" }}
       />
       <ArticleDetail article={article} />
     </>
