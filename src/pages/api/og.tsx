@@ -36,7 +36,7 @@ export default function handler(req: NextRequest) {
               flexDirection: "column",
               justifyContent: "space-between",
               backgroundColor: "white",
-              padding: 40,
+              padding: 70,
               borderRadius: 10,
             }}
           >
