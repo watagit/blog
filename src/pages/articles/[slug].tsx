@@ -13,7 +13,7 @@ const ArticleDetailPage: NextPageWithLayout<ArticleDetailPageProps> = ({
   article,
 }) => {
   const ogImagePath = useMemo(() => {
-    return `https://blog-nextjs-six-eta.vercel.app/api/og?title=${article.title}`;
+    return `/api/og?title=${article.title}`;
   }, [article.title]);
 
   return (
